@@ -1,3 +1,15 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<h2 id="title">Reddit Posts</h2>
+
+<nav>
+  <h1>
+    &#8664; PICK A CATEGORY &#8665;
+  </h1>
+  <div class="a">
+    {{#link-to 'posts' 'javascript'}}Javascript  {{/link-to}}  |
+    {{#link-to 'posts' 'emberjs'}}Ember.js  {{/link-to}}  |
+    {{#link-to 'posts' 'programming'}}Programming{{/link-to}}
+  </div>
+</nav>
+
 
 {{outlet}}
