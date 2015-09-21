@@ -4,5 +4,6 @@
 <section class="sub-nav">
   {{#each post in data.children}}
   <h3><a target="_blank" {{bind-attr href='post.data.url'}}>{{post.data.title}}</a></h3>
+  {{post.data.picture}}
   {{/each}}
 </section>
