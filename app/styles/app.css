@@ -1,49 +1,49 @@
 html, body {
   margin: 20px;
-  background: blue;
+  background-image: url(http://i.imgur.com/HemV2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #CEE3F8;
+  background-attachment: fixed;
 }
 h1{
   font-size: 30px;
-  color: red;
   height: 50px;
+  color: red;
+}
+.sub-nav{
+  background: black;
+  display: inline;
 }
 #titles{
   color: red;
   text-align: center;
-  border: 2px solid black;
-  background: yellow;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding-top: 10px;
   border-radius: 20px;
 }
 a{
-  color: yellow;
+  color: white;
+  background: black;
 }
 
 .a{
-  border: 2px solid black;
-  background: red;
-  border-radius: 20px;
   font-size: 20px;
   padding: 5px;
   margin: 20px;
 }
 
 a:hover{
-color:white;
 }
 
 h2{
   text-align: center;
-  border: 2px solid black;
-  background: yellow;
-  border-radius: 30px;
   font-size: 50px;
-  color: red;
+  color: #FF4500;
 }
 h3{
-background: red;
-border: 2px solid black;
 text-align: center;
 margin-left:90px;
 margin-right: 90px;
@@ -55,8 +55,6 @@ border-radius: 5px;
 
 nav{
   text-align: center;
-  border: 2px solid black;
-  background: yellow;
   margin-left: 300px;
   margin-right: 300px;
   padding-bottom: 10px;

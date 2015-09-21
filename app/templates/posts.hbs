@@ -1,9 +1,8 @@
 {{outlet}}
 
-<h1 id= "titles">Category of Posts: {{data.children.0.data.subreddit}} </h1>
+<h1 id= "titles"> Posts about {{data.children.0.data.subreddit}}  </h1>
 <section class="sub-nav">
   {{#each post in data.children}}
   <h3><a target="_blank" {{bind-attr href='post.data.url'}}>{{post.data.title}}</a></h3>
-  {{post.data.picture}}
   {{/each}}
 </section>
