@@ -9,6 +9,6 @@ export default Ember.Route.extend({
     });
   },
   UpperCase: function(str){
-    return str.toUpperCase()
+    return str.toUpperCase();
   }
 });
